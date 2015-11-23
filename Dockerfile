@@ -30,7 +30,8 @@ RUN sudo add-apt-repository ppa:chris-lea/node.js && \
     libxslt1-dev \
     libcurl4-openssl-dev \
     libffi-dev \
-    nodejs
+    nodejs \
+    graphviz
 
 RUN cd && \
     git clone git://github.com/sstephenson/rbenv.git .rbenv && \
